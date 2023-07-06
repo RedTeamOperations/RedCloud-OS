@@ -1,4 +1,7 @@
 # RedCloud OS
+
+![Logo](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/RedCloud%20Os%20Logo%20B.png)
+
 ## Intro
 
 **RedCloud OS** is a [Debian-based](https://www.debian.org/) Cloud Adversary Simulation Operating System for Red Teams to assess the Cloud Security of Leading Cloud Service Providers (CSPs). It includes tools optimized for adversary simulation tasks within [Amazon Web Services (AWS)](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/en-us), and [Google Cloud Platform (GCP)](https://cloud.google.com/).
