@@ -4,7 +4,7 @@
 
 ## Intro
 
-**RedCloud OS** is a [Debian-based](https://www.debian.org/) Cloud Adversary Simulation Operating System for Red Teams to assess the Cloud Security of Leading Cloud Service Providers (CSPs). It includes tools optimized for adversary simulation tasks within [Amazon Web Services (AWS)](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/en-us), and [Google Cloud Platform (GCP)](https://cloud.google.com/).
+**RedCloud OS** is a [Debian](https://www.debian.org/) based Cloud Adversary Simulation Operating System for Red Teams to assess the security of leading Cloud Service Providers (CSPs). It includes tools optimized for adversary simulation tasks within [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/en-us), and [Google Cloud Platform (GCP)](https://cloud.google.com/).
 
 ### Credentials
 **Username** --> cwl
@@ -108,7 +108,7 @@ That being said, there are some launchers like **Impacket** and **Redboto** whic
 
 #### Environmental Variables Setup
 
-We have provided some examples of environmental variables required for certain tools to work. These variables however are not exhaustive and more can be needed on case-to-case basis. Please make sure these variables are not 
+We have provided some examples of environmental variables required for certain tools to work. These variables however are not exhaustive and more can be needed on case-to-case basis.
 
 ##### AWS
 ```bash
@@ -151,20 +151,20 @@ alias ll='ls -la'
 ## Building from scratch
 
 1. Download base OS i.e, [Parrot OS Architect Edition 5.3](https://parrotsec.org/download/?version=architect) and proceed with installation in VMware/VirtualBox.
-2. During VM installation when prompted to choose components, select only Mate Desktop Environment and proceed.
+2. During VM installation, when prompted to choose components, select only Mate Desktop Environment and proceed.
 3. ONce installation is finished, launch VM and clone this repo using `git clone https://github.com/RedTeamOperations/RedCloud-OS.git`
 4. Browse to `build-scripts` folder and make scripts executable.
 5. First execute [uninstall.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/uninstall.sh) and wait for script to finish.
 6. THen execute [hold.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/hold.sh) and wait for script to finish.
 7. Finally execute [install.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/install.sh) and wait for script to finish.
-8. Install required tools from APT repo/Github/Gitlab. 
-9. Use Menu Editor to create applications launchers.
-10. Use Dconf Editor to customize icons.
-11. Use Grub Customizer to modify Grub settings.
+8. Install required tools from APT repo/Github/Gitlab.
+9. Use `Menu Editor` to create applications launchers.
+10. Use `Dconf-Editor` to customize icons.
+11. Use `Grub Customizer` to modify Grub settings.
 
 ## Feedback
 
- RedCloud OS is an ongoing piece of development and your feedback will help us enhance it furthermore. Feel free to either create **Issue** here in this repo or email us at **support@cyberwarfare.live** with subject "RedCloud OS".
+ RedCloud OS is an ongoing piece of development and your feedbacks/suggestions will help us enhance it furthermore. Feel free to either create an [**Issue**](https://github.com/RedTeamOperations/RedCloud-OS/issues) or email us at **support@cyberwarfare.live** with the subject "RedCloud OS".
 
 ## Acknowledgements
 
