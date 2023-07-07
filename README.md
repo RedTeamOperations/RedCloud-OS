@@ -1,6 +1,6 @@
 # RedCloud OS
 
-![Logo](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/RedCloud%20Os%20Logo%20B.png)
+![Logo](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/Logo.png)
 
 ## Intro
 
