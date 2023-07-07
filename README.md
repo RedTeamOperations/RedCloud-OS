@@ -87,7 +87,7 @@
 ## Getting Started
 
 ### Download
-- Step 1 --> Download the zip archive from **_[here](https://drive.google.com/file/d/10Bu84vyF8HaTROz8CIM_NTVqKpnesPw8/view?usp=sharing)_**
+- Step 1 --> Download the zip archive from **_[here](https://bit.ly/RedCloudOS)_**
 - Step 2 --> Unzip the archive
 - Step 3 --> Open **VMware Workstation** > **File** > **Open (Ctrl +  O)** > Browse to extracted folder and select **RedCloud OS.ovf**
 - Step 4 --> Click **Import**
