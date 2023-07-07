@@ -13,13 +13,15 @@
 **Password** --> redcloud
 
 ### Specs
-**Platform** --> VMware Workstation [VMware player can also work, although we have not tested yet.]
+**Platform** --> VMware Workstation [VMware player can also work, although we have not tested yet]
 
 
 **RAM** --> 8GB+ recommended; 4GB Minimum
 
 
 **No. of cores** --> 4+ Cores recommended; 2 Minimum
+
+**Getting Started with Cloud Red Team PDF** --> [Getting Started with Cloud Red Team PDF](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/Getting%20Started%20with%20Cloud%20Red%20Team.pdf)
 
 ## Available Tools
 
@@ -152,7 +154,7 @@ alias ll='ls -la'
 
 1. Download base OS i.e, [Parrot OS Architect Edition 5.3](https://parrotsec.org/download/?version=architect) and proceed with installation in VMware/VirtualBox.
 2. During VM installation, when prompted to choose components, select only Mate Desktop Environment and proceed.
-3. ONce installation is finished, launch VM and clone this repo using `git clone https://github.com/RedTeamOperations/RedCloud-OS.git`
+3. Once installation is finished, launch VM and clone this repo using `git clone https://github.com/RedTeamOperations/RedCloud-OS.git`
 4. Browse to `build-scripts` folder and make scripts executable.
 5. First execute [uninstall.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/uninstall.sh) and wait for script to finish.
 6. THen execute [hold.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/hold.sh) and wait for script to finish.
@@ -164,7 +166,7 @@ alias ll='ls -la'
 
 ## Feedback
 
- RedCloud OS is an ongoing piece of development and your feedbacks/suggestions will help us enhance it furthermore. Feel free to either create an [**Issue**](https://github.com/RedTeamOperations/RedCloud-OS/issues) or email us at **support@cyberwarfare.live** with the subject "RedCloud OS".
+ RedCloud OS is an ongoing piece of development and your feedbacks/suggestions will help us enhance it furthermore. Feel free to either create an [**Issue**](https://github.com/RedTeamOperations/RedCloud-OS/issues) or email us at **info@cyberwarfare.live** with the subject "RedCloud OS".
 
 ## Acknowledgements
 
