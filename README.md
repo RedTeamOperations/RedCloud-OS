@@ -120,21 +120,14 @@ export AWS_DEFAULT_REGION=<region>
 ```
 ##### Azure
 ```bash
-export AZURE_PRINCIPAL_ID=<principal_id>
-export AZURE_SUBSCRIPTION_ID=<subdcription_id>
-export AZURE_LOCATION=<region>
-export AZURE_ENV_NAME=<name>
+export AZURE_CLIENT_ID = <app-id>
+export AZURE_TENANT_ID = <tenant-id>
+export AZURE_CLIENT_SECRET = <app-secret>
 
 ```
 ##### GCP
 ```bash
-export GOOGLE_CLOUD_LOCATION=<region>
-export GOOGLE_CLOUD_PROJECT_ID=<project_id>
-export GOOGLE_CLOUD_PROJECT_NUMBER=<project_number>
-export GOOGLE_CLOUD_SERVICE_ACCOUNT_NAME=<account_name>
-export GOOGLE_CLOUD_WORKFLOW_EXECUTION_ID=<execution_id>
-export GOOGLE_CLOUD_WORKFLOW_ID=<workflow_id>
-export GOOGLE_CLOUD_WORKFLOW_REVISION_ID=<revision_id>
+export GOOGLE_APPLICATION_CREDENTIALS = <Service Account Json File Path>
 ```
 
 #### Aliases
