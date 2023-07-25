@@ -96,12 +96,13 @@
 
 ### Usage
 
-The OS setup is simple and tools are divided by the CSPs. Inside each CSP, there are three sub-categories i.e, Enumeration, Exploitation, and Post Exploitation. For multitasking and ease-of-use, **Terminator** is set as the default terminal. 
+The OS setup is simple and tools are divided by the CSPs. Inside each CSP, there are three sub-categories i.e, **Enumeration**, **Exploitation**, and **Post Exploitation**. For multitasking and ease-of-use, **Terminator** is set as the default terminal. 
 
-Each tool can be launched in 3 different ways as follows:-
-1. Using menu launchers
-2. Directly executing `startup.sh` script in respective **/opt/*** folder
-3. TAB autocomplete to search binary using tool name
+Each tool can be launched in 4 different ways as follows:-
+1. By clicking their menu launchers
+2. Directly executing `startup.sh` script in respective `/opt/` folder
+3. Executing startup script in `/usr/local/bin`
+4. TAB autocomplete to search binary using tool name
 
 
 **Note:** PowerShell tools start with capital letters and all others start with small letters. In case of any confusion, feel free to checkout `/usr/local/bin`.
@@ -150,16 +151,22 @@ alias ll='ls -la'
 3. Once installation is finished, launch VM and clone this repo using `git clone https://github.com/RedTeamOperations/RedCloud-OS.git`
 4. Browse to `build-scripts` folder and make scripts executable.
 5. First execute [uninstall.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/uninstall.sh) and wait for script to finish.
-6. THen execute [hold.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/hold.sh) and wait for script to finish.
+6. Then execute [hold.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/hold.sh) and wait for script to finish.
 7. Finally execute [install.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/install.sh) and wait for script to finish.
 8. Install required tools from APT repo/Github/Gitlab.
 9. Use `Menu Editor` to create applications launchers.
 10. Use `Dconf-Editor` to customize icons.
 11. Use `Grub Customizer` to modify Grub settings.
 
+## Cheatsheets
+Below are the links of couple cheatsheets related to TTPs of cloud security assessments. Please note that these links are given for reference purposes only and might not cover everything. If you feel like you have something to contribute in regards of TTPs, please refer to their respective contributing pages.
+
+1. [Hacktricks Cloud](https://cloud.hacktricks.xyz/)
+2. [Offensive Cloud](https://github.com/lutzenfried/OffensiveCloud)
+
 ## Feedback
 
- RedCloud OS is an ongoing piece of development and your feedbacks/suggestions will help us enhance it furthermore. Feel free to either create an [**Issue**](https://github.com/RedTeamOperations/RedCloud-OS/issues) or email us at **info@cyberwarfare.live** with the subject "RedCloud OS".
+ RedCloud OS is an ongoing piece of development and your feedbacks/suggestions will help us enhance it furthermore. Feel free to either create an [**Issue**](https://github.com/RedTeamOperations/RedCloud-OS/issues) or email us at **info@cyberwarfare.live** with the subject "**RedCloud OS**".
 
 ## Acknowledgements
 
