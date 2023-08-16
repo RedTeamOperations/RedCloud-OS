@@ -148,15 +148,14 @@ alias ll='ls -la'
 
 1. Download base OS i.e, [Parrot OS Architect Edition 5.3](https://parrotsec.org/download/?version=architect) and proceed with installation in VMware/VirtualBox.
 2. During VM installation, when prompted to choose components, select only Mate Desktop Environment and proceed.
-3. Once installation is finished, launch VM and clone this repo using `git clone https://github.com/RedTeamOperations/RedCloud-OS.git`
-4. Browse to `build-scripts` folder and make scripts executable.
+3. Once installation is finished, launch the VM and clone this repo using `git clone https://github.com/RedTeamOperations/RedCloud-OS.git`
+4. Navigate to `build-scripts` folder and make scripts executable.
 5. First execute [uninstall.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/uninstall.sh) and wait for script to finish.
-6. Then execute [hold.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/hold.sh) and wait for script to finish.
+6. (_Optional_) Then execute [hold.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/hold.sh) and wait for script to finish.
 7. Finally execute [install.sh](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/install.sh) and wait for script to finish.
-8. Install required tools from APT repo/Github/Gitlab.
-9. Use `Menu Editor` to create applications launchers.
-10. Use `Dconf-Editor` to customize icons.
-11. Use `Grub Customizer` to modify Grub settings.
+8. (_Optional_) Use `Menu Editor` to create applications launchers.
+9. (_Optional_) Use `Dconf-Editor` to customize icons.
+10. (_Optional_) Use `Grub Customizer` to modify Grub settings.
 
 ## Cheatsheets
 Below are the links of couple cheatsheets related to TTPs of cloud security assessments. Please note that these links are given for reference purposes only and might not cover everything. If you feel like you have something to contribute in regards of TTPs, please refer to their respective contributing pages.
