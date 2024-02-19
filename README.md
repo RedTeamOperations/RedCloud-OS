@@ -157,11 +157,13 @@ alias ll='ls -la'
 9. (_Optional_) Use `Dconf-Editor` to customize icons.
 10. (_Optional_) Use `Grub Customizer` to modify Grub settings.
 
-## Cheatsheets
-Below are the links of couple cheatsheets related to TTPs of cloud security assessments. Please note that these links are given for reference purposes only and might not cover everything. If you feel like you have something to contribute in regards of TTPs, please refer to their respective contributing pages.
+## Learning Materials
 
-1. [Hacktricks Cloud](https://cloud.hacktricks.xyz/)
-2. [Offensive Cloud](https://github.com/lutzenfried/OffensiveCloud)
+1. **AWS**: ![AWS Cloud Red Team Specialist [CARTS]](https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/)
+2. **GCP**: ![Google Cloud Red Team Specialist [CGRTS]](https://cyberwarfare.live/product/google-cloud-red-team-specialist-cgrts/)
+3. **Multi-Cloud**:
+    - ![Multi-Cloud Red Team Analyst [MCRTA]](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)
+    - ![Hybrid Multi-Cloud Red Team Specialist [CHMRTS]](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)
 
 ## Feedback
 
