@@ -165,6 +165,9 @@ alias ll='ls -la'
     - ![Multi-Cloud Red Team Analyst [MCRTA]](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)
     - ![Hybrid Multi-Cloud Red Team Specialist [CHMRTS]](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)
 
+## Future Roadmap
+- [ ] [**Under Development**] Support for Apple Silicon Architecture
+
 ## Feedback
 
  RedCloud OS is an ongoing piece of development and your feedbacks/suggestions will help us enhance it furthermore. Feel free to either create an [**Issue**](https://github.com/RedTeamOperations/RedCloud-OS/issues) or email us at **info@cyberwarfare.live** with the subject "**RedCloud OS**".
