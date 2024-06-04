@@ -159,11 +159,11 @@ alias ll='ls -la'
 
 ## Learning Materials
 
-1. **AWS**: ![AWS Cloud Red Team Specialist [CARTS]](https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/)
-2. **GCP**: ![Google Cloud Red Team Specialist [CGRTS]](https://cyberwarfare.live/product/google-cloud-red-team-specialist-cgrts/)
+1. **AWS**: [AWS Cloud Red Team Specialist [CARTS]](https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/)
+2. **GCP**: [Google Cloud Red Team Specialist [CGRTS]](https://cyberwarfare.live/product/google-cloud-red-team-specialist-cgrts/)
 3. **Multi-Cloud**:
-    - ![Multi-Cloud Red Team Analyst [MCRTA]](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)
-    - ![Hybrid Multi-Cloud Red Team Specialist [CHMRTS]](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)
+    - [Multi-Cloud Red Team Analyst [MCRTA]](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)
+    - [Hybrid Multi-Cloud Red Team Specialist [CHMRTS]](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)
 
 ## Future Roadmap
 - [ ] [**Under Development**] Support for Apple Silicon Architecture
