@@ -1,115 +1,81 @@
 # RedCloud OS
 
-![Logo](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/Logo.png)
+<p align="center">
+  <img src="Logo.png" alt="Logo" width="200"/>
+</p>
 
-## Intro
+## Introduction
 
-**RedCloud OS** is a [Debian](https://www.debian.org/) based Cloud Adversary Simulation Operating System for Red Teams to assess the security of leading Cloud Service Providers (CSPs). It includes tools optimized for adversary simulation tasks within [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/en-us), and [Google Cloud Platform (GCP)](https://cloud.google.com/).
+**RedCloud OS** is a [Debian](https://www.debian.org/)-based Cloud Adversary Simulation Operating System designed specifically for Red Teams to evaluate and enhance the security of leading Cloud Service Providers (CSPs). It comes equipped with a suite of tools optimized for adversary simulation tasks across [Amazon Web Services (AWS)](https://aws.amazon.com/), [Microsoft Azure](https://azure.microsoft.com/en-us), and [Google Cloud Platform (GCP)](https://cloud.google.com/).
 
 ### Credentials
-**Username** --> cwl
 
+- **Username:** `cwl`
+- **Password:** `redcloud`
 
-**Password** --> redcloud
+### System Specifications
 
-### Specs
-**Platform** --> VMware Workstation [VMware player can also work, although we have not tested yet]
+- **Platform -** VMware Workstation _(Note: VMware Player may also work, but it has not been officially tested.)_
 
+- **RAM -** 8GB or more recommended; 4GB minimum
 
-**RAM** --> 8GB+ recommended; 4GB Minimum
+- **CPU Cores -** 4 or more recommended; 2 minimum
 
-
-**No. of cores** --> 4+ Cores recommended; 2 Minimum
-
-**Getting Started with Cloud Red Team PDF** --> [Getting Started with Cloud Red Team PDF](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/Getting%20Started%20with%20Cloud%20Red%20Team.pdf)
+- **Getting Started Guide -** [Getting Started with Cloud Red Team PDF](https://github.com/RedTeamOperations/RedCloud-OS/blob/main/build-scripts/Getting%20Started%20with%20Cloud%20Red%20Team.pdf)
 
 ## Available Tools
 
-### AWS
-- [AWSCLI](https://github.com/aws/aws-cli/tree/v2)
-- [AWS Consoler](https://github.com/NetSPI/aws_consoler)
-- [AWS Escalate](https://github.com/RhinoSecurityLabs/Security-Research/blob/master/tools/aws-pentest-tools/aws_escalate.py)
-- [CloudCopy](https://github.com/Static-Flow/CloudCopy)
-- [CloudJack](https://github.com/prevade/cloudjack)
-- [CloudMapper](https://github.com/duo-labs/cloudmapper)
-- [CredKing](https://github.com/ustayready/CredKing)
-- [Endgame](https://github.com/hoodoer/endgame)
-- [Pacu](https://github.com/RhinoSecurityLabs/pacu)
-- [Redboto](https://github.com/ihamburglar/Redboto)
-- [weirdAAL](https://github.com/carnal0wnage/weirdAAL)
-
-### Azure
-- [AADCookieSpoof](https://github.com/jsa2/aadcookiespoof)
-- [AADInternals](https://github.com/Gerenios/AADInternals)
-- [AZ CLI](https://github.com/Azure/azure-cli)
-- [AzureAD](https://github.com/Azure/azure-docs-powershell-azuread)
-- [AzureHound](https://github.com/BloodHoundAD/AzureHound)
-- [BloodHound](https://github.com/BloodHoundAD/BloodHound)
-- [DCToolbox](https://github.com/DanielChronlund/DCToolbox)
-- [MFASweep](https://github.com/dafthack/MFASweep)
-- [MicroBurst](https://github.com/NetSPI/MicroBurst)
-- [Microsoft365 devicePhish ](https://github.com/optiv/Microsoft365_devicePhish)
-- [MS Graph](https://github.com/microsoftgraph/msgraph-sdk-powershell)
-- [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)
-- [ROADtools](https://github.com/dirkjanm/ROADtools)
-- [TeamFiltration](https://github.com/Flangvik/TeamFiltration)
-- [TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
-
-### GCP
-- [Gcloud CLI](https://cloud.google.com/sdk/gcloud/)
-- [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)
-- [GCP Delegation](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/gcp_misc)
-- [GCP Enum](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/gcp_enum)
-- [GCP Firewall Enum](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/gcp_firewall_enum)
-- [GCP IAM Collector](https://github.com/marcin-kolda/gcp-iam-collector)
-- [GCP IAM Privilege Escalation](https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation)
-- [GCPTokenReuse](https://github.com/RedTeamOperations/GCPTokenReuse)
-- [GoogleWorkspaceDirectoryDump](https://github.com/RedTeamOperations/GoogleWorkspaceDirectoryDump)
-- [Hayat](https://github.com/DenizParlak/hayat)
-
-
-### Multi Cloud
-- [Cartography](https://github.com/lyft/cartography)
-- [CCAT](https://github.com/RhinoSecurityLabs/ccat)
-- [CloudBrute](https://github.com/0xsha/CloudBrute)
-- [CloudEnum](https://github.com/initstring/cloud_enum/)
-- [Cloud Service Enum](https://github.com/NotSoSecure/cloud-service-enum)
-- [Evilginx2](https://github.com/kgretzky/evilginx2)
-- [Gitleaks](https://github.com/gitleaks/gitleaks)
-- [Impacket](https://github.com/fortra/impacket)
-- [Leonidas](https://github.com/WithSecureLabs/leonidas)
-- [Modlishka](https://github.com/drk1wi/Modlishka)
-- [Mose](https://github.com/master-of-servers/mose)
-- [PurplePanda](https://github.com/carlospolop/PurplePanda)
-- [Responder](https://github.com/lgandx/Responder)
-- [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
-- [SkyArk](https://github.com/cyberark/SkyArk)
-- [Zphisher](https://github.com/htr-tech/zphisher)
+| **AWS**                                                         | **Azure**                                                       | **GCP**                                                      | **Multi-Cloud**  |
+|-----------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------|
+| [AWSCLI](https://github.com/aws/aws-cli/tree/v2)                | [AADCookieSpoof](https://github.com/jsa2/aadcookiespoof)        | [Gcloud CLI](https://cloud.google.com/sdk/gcloud/)           | [Cartography](https://github.com/lyft/cartography)             |
+| [AWS Consoler](https://github.com/NetSPI/aws_consoler)          | [AADInternals](https://github.com/Gerenios/AADInternals)        | [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute) | [CCAT](https://github.com/RhinoSecurityLabs/ccat)  |
+| [AWS Escalate](https://github.com/RhinoSecurityLabs/Security-Research/blob/master/tools/aws-pentest-tools/aws_escalate.py) | [AZ CLI](https://github.com/Azure/azure-cli) | [GCP Delegation](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/gcp_misc) | [CloudBrute](https://github.com/0xsha/CloudBrute)  |
+| [CloudCopy](https://github.com/Static-Flow/CloudCopy)           | [AzureAD](https://github.com/Azure/azure-docs-powershell-azuread) | [GCP Enum](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/gcp_enum) | [CloudEnum](https://github.com/initstring/cloud_enum/) |
+| [CloudJack](https://github.com/prevade/cloudjack)               | [AzureHound](https://github.com/BloodHoundAD/AzureHound)        | [GCP Firewall Enum](https://gitlab.com/gitlab-com/gl-security/threatmanagement/redteam/redteam-public/gcp_firewall_enum) | [Cloud Service Enum](https://github.com/NotSoSecure/cloud-service-enum) |
+| [CloudMapper](https://github.com/duo-labs/cloudmapper)          | [BloodHound](https://github.com/BloodHoundAD/BloodHound)        | [GCP IAM Collector](https://github.com/marcin-kolda/gcp-iam-collector) | [Evilginx2](https://github.com/kgretzky/evilginx2)  |
+| [CredKing](https://github.com/ustayready/CredKing)              | [DCToolbox](https://github.com/DanielChronlund/DCToolbox)       | [GCP IAM Privilege Escalation](https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation) | [Gitleaks](https://github.com/gitleaks/gitleaks) |
+| [Endgame](https://github.com/hoodoer/endgame)                   | [MFASweep](https://github.com/dafthack/MFASweep)                | [GCPTokenReuse](https://github.com/RedTeamOperations/GCPTokenReuse) | [Impacket](https://github.com/fortra/impacket) |
+| [Pacu](https://github.com/RhinoSecurityLabs/pacu)               | [MicroBurst](https://github.com/NetSPI/MicroBurst)              | [GoogleWorkspaceDirectoryDump](https://github.com/RedTeamOperations/GoogleWorkspaceDirectoryDump) | [Leonidas](https://github.com/WithSecureLabs/leonidas) |
+| [Redboto](https://github.com/ihamburglar/Redboto)               | [Microsoft365 devicePhish](https://github.com/optiv/Microsoft365_devicePhish) | [Hayat](https://github.com/DenizParlak/hayat)                | [Modlishka](https://github.com/drk1wi/Modlishka) |
+| [weirdAAL](https://github.com/carnal0wnage/weirdAAL)            | [MS Graph](https://github.com/microsoftgraph/msgraph-sdk-powershell) |                                                              | [Mose](https://github.com/master-of-servers/mose)  |
+|                                                                 | [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)             |                                                              | [PurplePanda](https://github.com/carlospolop/PurplePanda) |
+|                                                                 | [ROADtools](https://github.com/dirkjanm/ROADtools)              |                                                              | [Responder](https://github.com/lgandx/Responder) |
+|                                                                 | [TeamFiltration](https://github.com/Flangvik/TeamFiltration)    |                                                              | [ScoutSuite](https://github.com/nccgroup/ScoutSuite)  |
+|                                                                 | [TokenTactics](https://github.com/rvrsh3ll/TokenTactics)        |                                                              | [SkyArk](https://github.com/cyberark/SkyArk)  |
+|                                                                 |                                                                 |                                                              | [Zphisher](https://github.com/htr-tech/zphisher)  |
 
 ## Getting Started
 
-### Download
-- Step 1 --> Download the 7z archive from **_[here](https://linktr.ee/redcloudos)_**
-- Step 2 --> Unzip the archive
-- Step 3 --> Open **VMware Workstation** > **File** > **Open (Ctrl +  O)** > Browse to extracted folder and select **RedCloud OS.ovf**
-- Step 4 --> Click **Import**
+### Download and Setup
 
-### Usage
+- **Step 1** - Download the 7z archive from **_[this link](https://linktr.ee/redcloudos)_**.
 
-The OS setup is simple and tools are divided by the CSPs. Inside each CSP, there are three sub-categories i.e, **Enumeration**, **Exploitation**, and **Post Exploitation**. For multitasking and ease-of-use, **Terminator** is set as the default terminal. 
+- **Step 2** - Extract the contents of the archive to a convenient location on your computer.
 
-Each tool can be launched in 4 different ways as follows:-
-1. By clicking their menu launchers
-2. Directly executing `startup.sh` script in respective `/opt/` folder
-3. Executing startup script in `/usr/local/bin`
-4. TAB autocomplete to search binary using tool name
+- **Step 3** - Open **VMware Workstation**.
+  - Go to **File** > **Open** (or press `Ctrl + O`).
+  - Navigate to the folder where you extracted the files and select **RedCloud OS.ovf**.
 
+- **Step 4** - Click **Import** to begin the import process.
 
-**Note:** PowerShell tools start with capital letters and all others start with small letters. In case of any confusion, feel free to checkout `/usr/local/bin`.
+## Usage
 
-That being said, there are some launchers like **Impacket** and **Redboto** which due to lots of scripts are only listing the scripts and folder path. In the next release, we'll be including proper launchers for these as well as as for any similar tool.
+The OS setup is straightforward, with tools organized by Cloud Service Providers (CSPs). Each CSP has tools categorized into three sub-categories: **Enumeration**, **Exploitation**, and **Post Exploitation**. For efficient multitasking, **Terminator** is set as the default terminal.
 
-#### Environmental Variables Setup
+### Launching Tools
+
+You can launch each tool in one of four ways
+
+- **By Menu Launcher** Click the tool's menu launcher.
+- **Direct Execution** Run the `startup.sh` script located in the respective `/opt/` folder.
+- **Startup Script** Execute the startup script from `/usr/local/bin`.
+- **TAB Autocomplete** Use TAB autocomplete to search for the binary by tool name.
+
+**Note:** PowerShell tools are named with initial capital letters, while other tools use lowercase. If you have any doubts, check `/usr/local/bin` for the correct tool names.
+
+Some launchers, such as **Impacket** and **Redboto**, currently list only scripts and folder paths due to the extensive number of scripts involved. Future releases will include proper launchers for these tools and others with similar issues.
+
+### Environmental Variables Setup
 
 We have provided some examples of environmental variables required for certain tools to work. These variables however are not exhaustive and more can be needed on case-to-case basis.
 
@@ -159,9 +125,9 @@ alias ll='ls -la'
 
 ## Learning Materials
 
-1. **AWS**: [AWS Cloud Red Team Specialist [CARTS]](https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/)
-2. **GCP**: [Google Cloud Red Team Specialist [CGRTS]](https://cyberwarfare.live/product/google-cloud-red-team-specialist-cgrts/)
-3. **Multi-Cloud**:
+1. **AWS** [AWS Cloud Red Team Specialist [CARTS]](https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/)
+2. **GCP** [Google Cloud Red Team Specialist [CGRTS]](https://cyberwarfare.live/product/google-cloud-red-team-specialist-cgrts/)
+3. **Multi-Cloud**
     - [Multi-Cloud Red Team Analyst [MCRTA]](https://cyberwarfare.live/product/multi-cloud-red-team-analyst-mcrta/)
     - [Hybrid Multi-Cloud Red Team Specialist [CHMRTS]](https://cyberwarfare.live/product/hybrid-multi-cloud-red-team-specialist-chmrts/)
 
